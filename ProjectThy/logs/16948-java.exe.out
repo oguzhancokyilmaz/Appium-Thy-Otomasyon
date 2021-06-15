@@ -1,0 +1,39 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+{"logLevel":"debug","message":"gauge-java took 679milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 679"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 56150"}
+{"logLevel":"info","message":"Listening on port:56150"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.clickBuyTicket' and 'StepImplementation.clickBuyTicket'"}
+{"logLevel":"debug","message":"Found {} id li elemente tıkla {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.waitForSeconds' and 'StepImplementation.waitForSeconds'"}
+{"logLevel":"debug","message":"Found {} saniye bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.isListEmpty' and 'StepImplementation.isListEmpty'"}
+{"logLevel":"debug","message":"Found Uçuşlar listelendi mi in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.permissionDenyButton' and 'StepImplementation.permissionDenyButton'"}
+{"logLevel":"debug","message":"Found İzin reddet in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.setKeyById' and 'StepImplementation.setKeyById'"}
+{"logLevel":"debug","message":"Found {} id li elemente {} değerini yaz {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.selectSAW' and 'StepImplementation.selectSAW'"}
+{"logLevel":"debug","message":"Found {} xpath elementine tıkla {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.ucusSec' and 'StepImplementation.ucusSec'"}
+{"logLevel":"debug","message":"Found Ekonomi Uçuş Seçildi in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.clickSelected' and 'StepImplementation.clickSelected'"}
+{"logLevel":"debug","message":"Found rezervasyon yap in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tEkonomi Uçuş Seçildi : public void ucusSec() throws InterruptedException"}
+{"logLevel":"debug","message":"\trezervasyon yap : public void clickSelected() throws InterruptedException"}
+{"logLevel":"debug","message":"\t{} saniye bekle : public void waitForSeconds(ınt key) throws InterruptedException"}
+{"logLevel":"debug","message":"\tİzin reddet : public void permissionDenyButton() throws InterruptedException"}
+{"logLevel":"debug","message":"\t{} id li elemente tıkla {} : public void clickBuyTicket(String key, String name) throws InterruptedException"}
+{"logLevel":"debug","message":"\t{} xpath elementine tıkla {} : public void selectSAW(String key, String text)"}
+{"logLevel":"debug","message":"\t{} id li elemente {} değerini yaz {} : public void setKeyById(String key, String text, String name) throws InterruptedException"}
+{"logLevel":"debug","message":"\tUçuşlar listelendi mi : public void isListEmpty() throws InterruptedException"}
+!!!!!!!!!!!!!!!!!!!!!!!!!!!Test baslıyor!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!

@@ -1,0 +1,76 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+{"logLevel":"debug","message":"gauge-java took 712milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 712"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 63606"}
+{"logLevel":"info","message":"Listening on port:63606"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.plusPassangers' and 'StepImplementation.plusPassangers'"}
+{"logLevel":"debug","message":"Found Yolcu Sayısı Artırıldı in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.clickBuyTicket' and 'StepImplementation.clickBuyTicket'"}
+{"logLevel":"debug","message":"Found {} id li elemente tıkla {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.waitForSeconds' and 'StepImplementation.waitForSeconds'"}
+{"logLevel":"debug","message":"Found {} saniye bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.permissionDenyButton' and 'StepImplementation.permissionDenyButton'"}
+{"logLevel":"debug","message":"Found İzin reddet in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.setKeyById' and 'StepImplementation.setKeyById'"}
+{"logLevel":"debug","message":"Found {} id li elemente {} değerini yaz {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.selectSAW' and 'StepImplementation.selectSAW'"}
+{"logLevel":"debug","message":"Found {} xpath elementine tıkla {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.clickWithXPath' and 'StepImplementation.clickWithXPath'"}
+{"logLevel":"debug","message":"Found {} xpath li butona tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.clickSelected' and 'StepImplementation.clickSelected'"}
+{"logLevel":"debug","message":"Found {} rezervasyon yap in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.selectESB' and 'StepImplementation.selectESB'"}
+{"logLevel":"debug","message":"Found ESB Seçildi in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\t{} saniye bekle : public void waitForSeconds(ınt key) throws InterruptedException"}
+{"logLevel":"debug","message":"\tESB Seçildi : public void selectESB()"}
+{"logLevel":"debug","message":"\t{} xpath li butona tıkla : public void clickWithXPath(String key) throws InterruptedException"}
+{"logLevel":"debug","message":"\tİzin reddet : public void permissionDenyButton() throws InterruptedException"}
+{"logLevel":"debug","message":"\t{} id li elemente tıkla {} : public void clickBuyTicket(String key, String name) throws InterruptedException"}
+{"logLevel":"debug","message":"\t{} xpath elementine tıkla {} : public void selectSAW(String key, String text)"}
+{"logLevel":"debug","message":"\t{} rezervasyon yap : public void clickSelected(String key) throws InterruptedException"}
+{"logLevel":"debug","message":"\t{} id li elemente {} değerini yaz {} : public void setKeyById(String key, String text, String name) throws InterruptedException"}
+{"logLevel":"debug","message":"\tYolcu Sayısı Artırıldı : public void plusPassangers() throws InterruptedException"}
+!!!!!!!!!!!!!!!!!!!!!!!!!!!Test baslıyor!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Haz 15, 2021 9:03:16 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'İzin reddet' using 'class StepImplementation.permissionDenyButton"}
+Izin Kismi basari ile gecildi.
+{"logLevel":"debug","message":"Executing '{} id li elemente tıkla {}' using 'class StepImplementation.clickBuyTicket"}
+Bilet Al butonuna tiklandi!
+{"logLevel":"debug","message":"Executing '{} id li elemente tıkla {}' using 'class StepImplementation.clickBuyTicket"}
+Tek Yon butonuna tiklandi!
+{"logLevel":"debug","message":"Executing '{} id li elemente tıkla {}' using 'class StepImplementation.clickBuyTicket"}
+Nereden butonuna tiklandi!
+{"logLevel":"debug","message":"Executing '{} id li elemente tıkla {}' using 'class StepImplementation.clickBuyTicket"}
+Izin Reddet butonuna tiklandi!
+{"logLevel":"debug","message":"Executing '{} id li elemente {} değerini yaz {}' using 'class StepImplementation.setKeyById"}
+SAW Yazildi
+{"logLevel":"debug","message":"Executing '{} xpath elementine tıkla {}' using 'class StepImplementation.selectSAW"}
+SAW tiklandi.
+{"logLevel":"debug","message":"Executing '{} id li elemente tıkla {}' using 'class StepImplementation.clickBuyTicket"}
+Nereye butonuna tiklandi!
+{"logLevel":"debug","message":"Executing '{} id li elemente {} değerini yaz {}' using 'class StepImplementation.setKeyById"}
+ESB Yazildi
+{"logLevel":"debug","message":"Executing '{} xpath elementine tıkla {}' using 'class StepImplementation.selectSAW"}
+ESB tiklandi.
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class StepImplementation.waitForSeconds"}
+{"logLevel":"debug","message":"Executing '{} xpath elementine tıkla {}' using 'class StepImplementation.selectSAW"}
+Yolcu Sayisi Artir tiklandi.
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class StepImplementation.waitForSeconds"}
+{"logLevel":"debug","message":"Executing '{} id li elemente tıkla {}' using 'class StepImplementation.clickBuyTicket"}
+Tarih butonuna tiklandi!
+{"logLevel":"debug","message":"Executing '{} rezervasyon yap' using 'class StepImplementation.clickSelected"}
+
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}
